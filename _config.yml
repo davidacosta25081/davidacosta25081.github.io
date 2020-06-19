@@ -1,0 +1,20 @@
+# Site settings
+author: David Acosta 
+title: Java Script : Static and Instance methods 
+header-img: img/home-bg.png
+email: davidacosta25081@yahoo.com
+copyright_name: David Acosta 
+description: > # this means to ignore newlines until "baseurl:"
+  Coding resources 
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  davidacosta25081
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
